@@ -4,7 +4,7 @@ import Avatar from './Avatar.vue';
 
 const STORAGE_KEY = 'characters';
 // 定义四个格子的初始数据
-const defaultAvatar = '@assets/default-profile.png';
+const defaultAvatar = '/default-profile.png';
 const characters = ref([
 	{ name: '', description: '', avatar: defaultAvatar },
 	{ name: '', description: '', avatar: defaultAvatar },

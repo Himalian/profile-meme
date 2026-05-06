@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import defaultAvatar from '@/assets/default-profile.png'
+import defaultAvatar from '/default-profile.png'
 import { ref, useTemplateRef } from 'vue';
 import 'vue-cropper/dist/index.css'
 import { VueCropper } from 'vue-cropper'
