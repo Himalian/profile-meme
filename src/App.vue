@@ -18,7 +18,7 @@ async function handleSaveToImageClick() {
 </script>
 
 <template>
-  <div class="flex justify-between items-center mt-2 mx-auto mb-2 w-auto">
+  <div class="flex justify-between items-center mt-2 mx-auto mb-2 max-h-85vh aspect-auto">
     <p class="mr-2">
       点击报告各部分即可填写～(∠・ω&lt; )⌒☆
     </p>
@@ -31,9 +31,7 @@ async function handleSaveToImageClick() {
 
   <div
   	id="meme-container"
-    class="w-auto min-h-165 h-auto mx-auto border bg-white border-black rounded-lg gap-4 flex flex-col"
-    :style="{
-    }"
+class="w-fit mx-auto border bg-white border-black rounded-lg flex flex-col transition-transform duration-300 lg:scale-75 origin-top"
   >
     <div class="flex justify-between">
       <div class="flex items-center">
