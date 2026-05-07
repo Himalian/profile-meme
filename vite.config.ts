@@ -8,7 +8,7 @@ import { defineConfig } from 'vite';
 import pluginDevTools from 'vite-plugin-vue-devtools';
 
 export default defineConfig({
-	base: './',
+	base: process.env.NODE_ENV === 'production' ? '/meme/' : '/',
 	plugins: [
 		pluginLegacy(),
 		pluginVue(),

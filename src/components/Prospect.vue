@@ -3,7 +3,7 @@ import { onMounted, ref, watch } from 'vue';
 import Avatar from './Avatar.vue';
 
 const STORAGE_KEY = 'characters';
-const defaultAvatar = '/default-profile.png';
+const defaultAvatar = `${import.meta.env.BASE_URL}/default-profile.png`;
 const characters = ref([
 	{ name: '', description: '', avatar: defaultAvatar },
 	{ name: '', description: '', avatar: defaultAvatar },
